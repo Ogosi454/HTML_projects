@@ -1,0 +1,102 @@
+/* Styles the header with the background color */
+header{
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/*Remove bullet points from the navigation list */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Make navigation list display horizontally */
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+/* Style links in the navigation */
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Change the link color on hover */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Make the intro paragraph larger and bold */
+.intro {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 20px;
+}
+
+/* Add a decorative element before the h1 using ::before */
+h1::before {
+    content: "★ ";
+    color: gold;
+}
+
+/* Make external links blue and add an icon afer them */
+a.external {
+    color: blue;
+    position: relative;
+}
+
+/* Make every even paragraph slightly gray */
+p:nth-of-type(even) {
+    background-color: #f0f0f0;
+}
+
+a.external::after {
+    content: " 🔗";
+    font-size: 0.8em;
+}
+
+/* Add a left border to the article */
+article {
+    border-left: 4px solid #007bff;
+    padding-left: 15px;
+    margin: 20px 0;
+}
+
+/* Style the footer with a top border */
+footer {
+    border-top: 2px solid #dee2e6;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #6c757d;
+}
+
+/* Add spacing between sections */
+section {
+    margin-bottom: 30px;
+}
+
+/* Style blockquotes with italics and a left border */
+blockquote {
+    font-style: italic;
+    border-left: 3px solid #ced4da;
+    margin: 20px;
+    padding-left: 15px;
+    color: #495057;
+}
+
+/* Style images with a border and shadow */
+img {
+    border: 2px solid #dee2e6;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    max-width: 100%;
+    height: auto;
+}
+
